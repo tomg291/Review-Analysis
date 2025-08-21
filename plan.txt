@@ -208,3 +208,8 @@ The final phase is about making your project professional, robust, and shareable
     * **The best and easiest option is to deploy on Hugging Face Spaces.** It has native support for Streamlit, handles dependencies automatically, and is free for projects like this. Simply create a new "Space," connect it to your GitHub repository, and it will be live in minutes.
 
 **Outcome of Phase 4:** A deployed, fast, and robust web application that you can proudly feature in your portfolio.
+
+#########################################################
+
+FINE TUNE YOUR OWN SENTIMENT ANALYSER:
+https://huggingface.co/blog/sentiment-analysis-python#:~:text=in%20this%20tutorial%3A-,!,!
