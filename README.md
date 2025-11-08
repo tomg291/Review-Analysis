@@ -1,4 +1,4 @@
-# Aspect-AI: Product Insight Platform 📊
+# Aspect-AI: Product Insight Platform 
 
 ## Turn thousands of customer reviews into actionable insights.
 
