@@ -183,14 +183,3 @@ if uploaded_file:
         with st.expander("See Full Reviews for Reference"):
             st.dataframe(reference)
 
-
-### To do:
-## Must:
-# Add option to choose from pre-generated reports in the database
-# Make save report button go away after using it once
-# Add scraping logic to get reviews from Amazon and other platforms (doesnt work)
-
-## Nice to have:
-# Improve the UI/UX design, introduce gauges on the main page, section for product description
-# more visualizations for aspect breakdown (word clouds, sentiment over time etc)
-# Ability to download a pdf report
