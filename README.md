@@ -2,8 +2,6 @@
 
 ## Turn thousands of customer reviews into actionable insights.
 
-Screenshots go here
-
 ### What It Is
 Aspect-AI is an analytics tool that takes raw product reviews (from a CSV) and generates a comprehensive interactive dashboard. It uses a thoughtful AI pipeline to discover "aspects" customers are talking about, and aggregates the sentiment towards them.
 
@@ -24,6 +22,13 @@ The app allows you to easily pinpoint a products strengths and weaknesses. This 
 * Visualtisations: Plotly
 * Database: SQLite
 * NLP: NLTK
+
+## Screenshots
+
+![Screenshot 1](SS1.png "Screenshot1")
+![Screenshot 2](SS2.png "Screenshot2")
+![Screenshot 3](SS3.png "Screenshot3")
+![Screenshot 4](SS4.png "Screenshot4")
 
 ## How to Run (Local Setup)
 
