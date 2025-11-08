@@ -65,7 +65,7 @@ def call_ollama(prompt, model):
     
 @st.cache_data
 def run_aspect_discovery(reviews):
-    """Discovers key aspects from a list of reviews using a two-stage AI approach."""
+    """Discovers key aspects from a list of reviews by calling ollama."""
     
     print(f"Processing {len(reviews)} reviews in total.")
     num_batches = math.ceil(len(reviews) / REVIEWS_PER_BATCH)
@@ -107,7 +107,7 @@ def run_aspect_discovery(reviews):
 
 @st.cache_resource
 def load_models():
-    """Loads and caches the AI models."""
+    """Loads and caches the ml models."""
     print("--- Loading models ---")
     zero_shot = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
     sentiment = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
@@ -212,4 +212,5 @@ def run_full_analysis(uploaded_file):
 
     analysis_time = datetime.now() - start_time
     return aspect_summary, count, score_table, reference, analysis_time
+
 
